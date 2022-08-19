@@ -3,7 +3,7 @@ import { GiHamburgerMenu } from 'react-icons/gi';
 const Header = () => {
   return(
     <header>
-      <h1>Tkaczyk</h1>
+      <h2>Tkaczyk</h2>
       <GiHamburgerMenu />
     </header>
   )
