@@ -2,7 +2,7 @@ header {
   background-color: rgb(1, 35, 58);
   color: white;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  padding: 2%;
+  padding: 3%;
 
   div {
     display: flex;
@@ -13,10 +13,10 @@ header {
 
   nav {
     position: fixed;
-    background-color: black;
+    background-color: rgb(1, 35, 58);
     padding: 5%;
     transform: translateX(+1000%);
-    transition: transform 0.5s ease-in-out;
+    transition: transform 0.3s ease-in-out;
     height: 100vh;
     right: 0;
     top: 0;
@@ -29,4 +29,11 @@ header {
   .active {
     transform: translateX(0);
   }
+}
+
+video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
 }
