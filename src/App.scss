@@ -20,9 +20,22 @@ header {
     height: 100vh;
     right: 0;
     top: 0;
+
+    svg {
+      float: right;
+      border: solid 1px black;
+      border-radius: 50%;
+      padding: 3%;
+      background-color: black;
+    }
     
     ul {
       list-style: none;
+      margin-top: 5vh;
+
+      li {
+        margin-top: 5%;
+      }
     }
   }
 
