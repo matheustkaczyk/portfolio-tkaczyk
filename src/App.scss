@@ -13,7 +13,7 @@ header {
 
   nav {
     position: fixed;
-    background-color: rgb(1, 35, 58);
+    background-color: rgba(1, 35, 58, 0.5);
     padding: 5%;
     transform: translateX(+1000%);
     transition: transform 0.3s ease-in-out;
