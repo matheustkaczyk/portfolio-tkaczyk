@@ -1,4 +1,5 @@
 import ReactTypingEffect from "react-typing-effect";
+import { AiOutlineArrowDown } from "react-icons/ai";
 
 const Home = () => {
   const typingText = ['a Front-end developer!', 'a Back-end developer!', 'a Full-stack developer!', 'Matheus Tkaczyk Ribeiro'];
@@ -16,6 +17,7 @@ const Home = () => {
             />
             </h3>
           </div>
+          <AiOutlineArrowDown className="arrow" />
       </div>
     </section>
   )

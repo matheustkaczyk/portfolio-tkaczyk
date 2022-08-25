@@ -87,6 +87,15 @@ video {
       }
     }
   }
+
+  .arrow {
+    margin-top: 10%;
+    height: 30%;
+    width: auto;
+    cursor: pointer;
+
+    fill: rgb(0, 132, 255);
+  }
 }
 
 @keyframes fadeIn {
