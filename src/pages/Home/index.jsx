@@ -2,7 +2,7 @@ import ReactTypingEffect from "react-typing-effect";
 import { AiOutlineArrowDown } from "react-icons/ai";
 
 const Home = () => {
-  const typingText = ['a Front-end developer!', 'a Back-end developer!', 'a Full-stack developer!', 'Matheus Tkaczyk Ribeiro'];
+  const typingText = ['Matheus Tkaczyk Ribeiro', 'a Front-end developer!', 'a Back-end developer!', 'a Full-stack developer!'];
 
   return(
     <section className="home-wrapper">
@@ -13,6 +13,7 @@ const Home = () => {
               text={typingText}
               speed={80}
               eraseDelay={1000}
+              eraseSpeed={100}
               typingDelay={80}
             />
             </h3>
