@@ -1,8 +1,12 @@
 header {
-  background-color: rgb(1, 35, 58);
+  background-color: rgba(137, 113, 240, 0.5);
   color: white;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  padding: 3%;
+  font-size: .8rem;
+  width: 100vw;
+  height: 5vh;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
 
   div {
     display: flex;
@@ -13,7 +17,7 @@ header {
 
   nav {
     position: fixed;
-    background-color: rgba(1, 35, 58, 0.5);
+    background-color: rgba(1, 35, 58, 0.8);
     padding: 5%;
     transform: translateX(+1000%);
     transition: transform 0.3s ease-in-out;
@@ -49,4 +53,48 @@ video {
   top: 0;
   left: 0;
   z-index: -1;
+}
+
+.home-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 93vh;
+  background-color: rgba(110, 86, 218, 0.5);
+
+  .home {
+    color: white;
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+    font-size: 1.4rem;
+    width: 100%;
+    height: fit-content;
+    border-radius: 5px;
+    text-align: center;
+    letter-spacing: 3px;
+
+    h2 {
+      font-size: 3rem;
+      animation: fadeIn 2s;
+    }
+
+    h3 {
+      span {
+        div {
+          color: rgb(0, 132, 255);
+        }
+      }
+    }
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
 }
