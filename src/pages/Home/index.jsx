@@ -1,4 +1,5 @@
 import ReactTypingEffect from "react-typing-effect";
+
 import { AiOutlineArrowDown } from "react-icons/ai";
 
 const Home = () => {
