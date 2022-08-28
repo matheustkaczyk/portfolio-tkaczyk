@@ -1,3 +1,7 @@
+main {
+  background-color: rgba(110, 86, 218, 0.5);
+}
+
 header {
   background-color: rgba(94, 74, 182, 0.5);
   color: white;
@@ -64,7 +68,6 @@ video {
   align-items: center;
   width: 100vw;
   height: 93vh;
-  background-color: rgba(110, 86, 218, 0.5);
 
   .home {
     color: white;
@@ -104,6 +107,11 @@ video {
 
     fill: rgb(0, 132, 255);
   }
+}
+
+.about-wrapper {
+  width: 100vw;
+  height: 93vh;
 }
 
 @keyframes fadeIn {

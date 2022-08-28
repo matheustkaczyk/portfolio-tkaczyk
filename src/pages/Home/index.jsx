@@ -6,7 +6,7 @@ const Home = () => {
   const typingText = ['Matheus Tkaczyk Ribeiro', 'a Front-end developer!', 'a Back-end developer!', 'a Full-stack developer!'];
 
   return(
-    <section className="home-wrapper">
+    <section className="home-wrapper" id="home">
       <div className="home">
           <h2>Hey! <span role='img' aria-label="waving">👋</span></h2>
           <div className="home-presentation">
