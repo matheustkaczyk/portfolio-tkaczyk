@@ -81,7 +81,7 @@ video {
 
     h2 {
       font-size: 3rem;
-      animation: fadeIn 2s;
+      animation: leftFadeIn 2s;
 
       span {
         display: inline-block;
@@ -112,9 +112,37 @@ video {
 .about-wrapper {
   width: 100vw;
   height: 93vh;
+
+  .about {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+    color: rgb(177, 177, 177);
+    letter-spacing: 1px;
+    width: 100%;
+
+    svg {
+      width: 75vw;
+      height: auto;
+      animation: fadeIn 1s;
+    }
+
+    h4 {
+      margin-top: 2%;
+    }
+
+    hr {
+      width: 50%;
+      margin-top: 2%;
+      margin-bottom: 2%;
+    }
+  }
 }
 
-@keyframes fadeIn {
+@keyframes leftFadeIn {
   0% {
     opacity: 0;
     transform: translateX(-100%);
@@ -123,6 +151,16 @@ video {
   100% {
     opacity: 1;
     transform: translateX(0);
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
   }
 }
 

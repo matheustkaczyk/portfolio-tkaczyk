@@ -5,7 +5,8 @@ const About = () => {
     <section className="about-wrapper" id="about">
       <div className="about">
         <ProgrammingSvg />
-        <h2>I'm very passionate about science, technology and programming.</h2>
+        <h4>I'm very passionate about science, technology and programming.</h4>
+        <hr />
       </div>
     </section>
   )
