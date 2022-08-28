@@ -19,7 +19,9 @@ const Home = () => {
             />
             </h3>
           </div>
-          <AiOutlineArrowDown className="arrow" />
+          <a href="#about">
+            <AiOutlineArrowDown className="arrow" />
+          </a>
       </div>
     </section>
   )
