@@ -176,6 +176,17 @@ video {
   }
 }
 
+.tech-wrapper {
+  width: 100vw;
+  height: 100vh;
+}
+
+.contact-wrapper {
+  width: 100vw;
+  height: 100vh;
+  background-image: linear-gradient(to bottom, rgba(110, 86, 218, 0.4), white);
+}
+
 @keyframes leftFadeIn {
   0% {
     opacity: 0;

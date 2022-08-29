@@ -5,6 +5,8 @@ import Video from './components/Video'
 
 import Home from './pages/Home'
 import About from './pages/About'
+import Tech from './components/Tech'
+import Contact from './components/Contact'
 
 function App() {
   return (
@@ -14,6 +16,8 @@ function App() {
         <Video />
         <Home />
         <About />
+        <Tech />
+        <Contact />
       </main>
     </div>
   )
