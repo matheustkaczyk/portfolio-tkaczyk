@@ -20,7 +20,12 @@ const Projects = () => {
 
   return(
     <section className="projects">
-
+      <h2>Projects</h2>
+      <div className="projects-wrapper">
+        
+      </div>
     </section>
   )
 }
+
+export default Projects;
