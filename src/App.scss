@@ -215,6 +215,8 @@ video {
 
       .tech-item:hover {
         background-color: rgba(110, 86, 218, 0.8);
+        overflow: hidden;
+        
         svg {
           transform: scale(1.1);
         }
