@@ -68,7 +68,7 @@ const Tech = () => {
     <section className="tech-wrapper">
       <div className="tech">
         <h1>Tech Stack</h1>
-        <h4>Here is a list of the technologies I am most proficient in.</h4>
+        <p>Here is a list of the technologies I am most proficient in.</p>
         <div className="tech-list">
           {techs.map((tech, index) => {
             return(
