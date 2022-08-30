@@ -17,7 +17,7 @@ const About = () => {
           <p>I'm looking for my first opportunity to work as a software developer, i've worked many years
             on family business, working as bartender and doing general services in a ice factory, those jobs really helped me develop my speech and communication skills.
           </p>
-          <p>Right now i'm on a carrer transition to techonology, which is my true passion.</p>
+          <p>Right now i'm on a carrer transition to technology, which is my true passion.</p>
         </div>
         <KnowledgeSvg className="knowledge-svg" />
       </div>

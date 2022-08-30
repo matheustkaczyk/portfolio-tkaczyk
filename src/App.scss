@@ -73,7 +73,7 @@ video {
   .home {
     color: white;
     font-family: 'Alumni Sans Pinstripe', sans-serif;
-    font-size: 1.4rem;
+    font-size: 1.1em;
     width: 100%;
     height: fit-content;
     border-radius: 5px;
@@ -225,6 +225,76 @@ video {
           transform: scale(1.1);
         }
       }
+    }
+  }
+}
+
+.projects-wrapper {
+  width: 100vw;
+  height: 93vh;
+  font-family: 'Alumni Sans Pinstripe', sans-serif;
+  color: white;
+  text-align: center;
+  margin-top: 15%;
+
+  h2 {
+    margin-bottom: 5%;
+  }
+
+  .projects {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-grow: 1;
+    flex-wrap: wrap;
+
+    .Easybank {
+      background-image: url('./assets/images/easybank.png');
+      background-size: cover;
+      width: 100%;
+    }
+
+    .Trivia {
+      background-image: url('./assets/images/kartik.png');
+      background-size: cover;
+      width: 100%;
+    }
+
+    .QrCode {
+      background-image: url('./assets/images/qrcode.png');
+      background-size: cover;
+      width: 100%;
+    }
+
+    .Splitter {
+      background-image: url('./assets/images/splitter.png');
+      background-size: cover;
+      width: 100%;
+    }
+
+    .project-card {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: auto;
+      max-width: 270px;
+      max-height: 554px;
+      height: 5em;
+      margin-bottom: 5%;
+      background-color: rgba(110, 86, 218, 0.4);
+      border: solid 1px white;
+      cursor: pointer;
+      overflow: hidden;
+      text-decoration: none;
+      color: white;
+    }
+
+    .project-card:hover {
+      overflow: hidden;
+      background-size: 120%;
     }
   }
 }
