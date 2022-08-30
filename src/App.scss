@@ -212,6 +212,13 @@ video {
           height: 6em;
         }
       }
+
+      .tech-item:hover {
+        background-color: rgba(110, 86, 218, 0.8);
+        svg {
+          transform: scale(1.1);
+        }
+      }
     }
   }
 }
