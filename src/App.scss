@@ -250,11 +250,12 @@ video {
 
 .projects-wrapper {
   width: 100vw;
-  height: 93vh;
+  height: 100vh;
   font-family: 'Alumni Sans Pinstripe', sans-serif;
   color: white;
   text-align: center;
   margin-top: 15%;
+  overflow: scroll;
 
   h2 {
     margin-bottom: 5%;
@@ -267,53 +268,22 @@ video {
     align-items: center;
     flex-grow: 1;
     flex-wrap: wrap;
-
-    .Easybank {
-      background-image: url('./assets/images/easybank.png');
-      background-size: cover;
-      width: 100%;
-    }
-
-    .Trivia {
-      background-image: url('./assets/images/kartik.png');
-      background-size: cover;
-      width: 100%;
-    }
-
-    .QrCode {
-      background-image: url('./assets/images/qrcode.png');
-      background-size: cover;
-      width: 100%;
-    }
-
-    .Splitter {
-      background-image: url('./assets/images/splitter.png');
-      background-size: cover;
-      width: 100%;
-    }
+    width: fit-content;
+    height: 100%;
+    max-height: 100%;
 
     .project-card {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      width: 100%;
-      height: auto;
-      max-width: 270px;
-      max-height: 554px;
-      height: 5em;
-      margin-bottom: 5%;
       background-color: rgba(110, 86, 218, 0.4);
-      border: solid 1px white;
-      cursor: pointer;
-      overflow: hidden;
-      text-decoration: none;
-      color: white;
-    }
+      border-radius: 5px;
+      width: fit-content;
+      height: 20%;
+      padding: 1%;
 
-    .project-card:hover {
-      overflow: hidden;
-      background-size: 120%;
+      .project-image {
+        overflow: hidden;
+        width: 100%;
+        height: 100%;
+      }
     }
   }
 }
