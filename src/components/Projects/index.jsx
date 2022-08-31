@@ -6,6 +6,11 @@ import qrcode from '../../assets/images/qrcode.png';
 const Projects = () => {
   const projects = [
     {
+      name: 'Easybank',
+      url: 'https://easybank-bsk1zeve9-matheustkaczyk.vercel.app/',
+      image: easybank,
+    },
+    {
       name: 'Trivia',
       url: 'https://project-trivia-4beq4455q-matheustkaczyk.vercel.app/',
       image: trivia,
@@ -14,11 +19,6 @@ const Projects = () => {
       name: 'Splitter',
       url: 'https://splitter-challenge-l9x093db2-matheustkaczyk.vercel.app/',
       image: splitter,
-    },
-    {
-      name: 'Easybank',
-      url: 'https://easybank-bsk1zeve9-matheustkaczyk.vercel.app/',
-      image: easybank,
     },
     {
       name: 'QrCode',
