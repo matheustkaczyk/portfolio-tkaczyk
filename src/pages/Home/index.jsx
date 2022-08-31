@@ -2,6 +2,8 @@ import ReactTypingEffect from "react-typing-effect";
 
 import { AiOutlineArrowDown } from "react-icons/ai";
 
+import CV from '../../assets/MATHEUS_TKACZYK.pdf';
+
 const Home = () => {
   const typingText = ['Matheus Tkaczyk Ribeiro', 'a Front-end developer!', 'a Back-end developer!', 'a Full-stack developer!'];
 
@@ -18,6 +20,7 @@ const Home = () => {
               typingDelay={80}
             />
             </h3>
+            <a className="button" href={CV} download>Download my C.V.</a>
           </div>
           <a href="#about">
             <AiOutlineArrowDown className="arrow" />

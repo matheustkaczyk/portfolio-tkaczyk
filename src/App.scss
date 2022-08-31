@@ -98,6 +98,23 @@ video {
         }
       }
     }
+
+    .button {
+      background-color: rgb(0, 132, 255);
+      color: white;
+      border: none;
+      border-radius: 5px;
+      padding: 1%;
+      font-size: 1.1em;
+      font-family: 'Alumni Sans Pinstripe', sans-serif;
+      font-weight: 600;
+      cursor: pointer;
+      transition: transform 0.3s ease-in-out;
+      animation: rightFadeIn 2s;
+      margin-top: 5%;
+      text-decoration: none;
+      display: inline-block;
+    }
   }
 
   .arrow {
@@ -137,7 +154,7 @@ video {
       text-align: center;
 
       svg {
-        width: 12em;
+        width: 10em;
         height: auto;
       }
     }
@@ -164,7 +181,7 @@ video {
     }
 
     .knowledge-svg {
-      width: 100%;
+      width: 18em;
       height: auto;
     }
 
