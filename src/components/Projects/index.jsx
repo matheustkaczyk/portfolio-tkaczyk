@@ -34,7 +34,7 @@ const Projects = () => {
       <div className="projects">
         {
           projects.map(project => (
-              <div className='project-card'>
+              <div className='project-card' key={project.name}>
                 <div className='project-image'>
                   <a href={project.url} target="_blank" rel="noopener noreferrer">
                     <img src={project.image} />
