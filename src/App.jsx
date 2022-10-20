@@ -5,9 +5,9 @@ import Video from './components/Video'
 
 import Home from './pages/Home'
 import About from './pages/About'
-import Tech from './components/Tech'
-import Projects from './components/Projects'
-import Contact from './components/Contact'
+import Tech from './pages/Tech'
+import Projects from './pages/Projects'
+import Contact from './pages/Contact'
 
 function App() {
   return (
