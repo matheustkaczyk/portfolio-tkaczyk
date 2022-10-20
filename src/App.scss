@@ -244,12 +244,11 @@ video {
 
 .projects-wrapper {
   width: 100vw;
-  height: 100vh;
+  height: fit-content;
   font-family: 'Alumni Sans Pinstripe', sans-serif;
   color: white;
   text-align: center;
   margin-top: 15%;
-  overflow: scroll;
 
   h2 {
     margin-bottom: 5%;
@@ -270,7 +269,7 @@ video {
       background-color: rgba(110, 86, 218, 0.4);
       border-radius: 5px;
       width: fit-content;
-      height: 20%;
+      height: 10em;
       padding: 1%;
 
       .project-image {
