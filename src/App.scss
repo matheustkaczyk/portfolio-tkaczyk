@@ -131,7 +131,7 @@ video {
 
 .about-wrapper {
   width: 100vw;
-  height: 93vh;
+  height: fit-content;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -200,7 +200,6 @@ video {
   text-align: center;
   width: 100vw;
   height: fit-content;
-  margin-top: 14%;
 
   .tech {
     .tech-list {
