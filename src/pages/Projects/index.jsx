@@ -2,6 +2,9 @@ import easybank from '../../assets/images/easybank.png';
 import trivia from '../../assets/images/kartik.png';
 import splitter from '../../assets/images/splitter.png';
 import qrcode from '../../assets/images/qrcode.png';
+import webchat from '../../assets/images/webchat.png';
+import finance from '../../assets/images/finance.png';
+import trafalgar from '../../assets/images/trafalgar.png';
 
 const Projects = () => {
   const projects = [
@@ -28,6 +31,24 @@ const Projects = () => {
       url: 'https://qrcode-gen-tka.netlify.app/',
       image: qrcode,
       tags: ['HTML', 'CSS', 'JavaScript', 'React'],
+    },
+    {
+      name: 'Finance',
+      url: 'https://finance-tkaczyk.netlify.app/',
+      image: finance,
+      tags: ['HTML', 'CSS', 'JavaScript', 'React'],
+    },
+    {
+      name: 'Trafalgar',
+      url: 'https://trafalgar-tkaczyk.netlify.app/',
+      image: trafalgar,
+      tags: ['HTML', 'CSS', 'JavaScript', 'React'],
+    },
+    {
+      name: 'Webchat',
+      url: 'https://webchattkaczyk.netlify.app/',
+      image: webchat,
+      tags: ['HTML', 'CSS', 'JavaScript', 'React', 'Node.js', 'Socket.io'],
     }
   ];
 
