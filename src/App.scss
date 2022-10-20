@@ -146,7 +146,6 @@ video {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    height: 93vh;
 
     .about-heading {
       display: flex;
@@ -166,7 +165,6 @@ video {
       font-size: larger;
       padding: 5%;
       // overflow: scroll;
-      height: 50vh;
 
       p {
         font-size: 1.2em;
