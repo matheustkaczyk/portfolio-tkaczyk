@@ -202,6 +202,8 @@ video {
   height: fit-content;
 
   .tech {
+    font-size: 1.2em;
+
     .tech-list {
       display: flex;
       flex-direction: row;
@@ -271,6 +273,7 @@ video {
       height: fit-content;
       padding: 1%;
       margin: 5%;
+      width: 95%;
 
       .project-image {
         overflow: hidden;
@@ -294,7 +297,6 @@ video {
           flex-wrap: wrap;
           margin: 5%;
           height: fit-content;
-          background-color: whitesmoke;
           font-family: monospace;
           color: black;
           font-weight: 900;
@@ -304,6 +306,8 @@ video {
             padding: 1%;
             margin: 1%;
             border-radius: 5px;
+            border: solid black 1px;
+            background-color: whitesmoke;
           }
         }
       }
