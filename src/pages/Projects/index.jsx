@@ -24,7 +24,7 @@ const Projects = () => {
       name: 'Splitter',
       url: 'https://splitter-challenge-l9x093db2-matheustkaczyk.vercel.app/',
       image: splitter,
-      tags: ['HTML', 'CSS', 'JavaScript', 'React'],
+      tags: ['HTML', 'SCSS', 'JavaScript', 'React'],
     },
     {
       name: 'QrCode',
@@ -36,19 +36,25 @@ const Projects = () => {
       name: 'Finance',
       url: 'https://finance-tkaczyk.netlify.app/',
       image: finance,
-      tags: ['HTML', 'CSS', 'JavaScript', 'React'],
+      tags: ['HTML', 'SCSS', 'JavaScript', 'React'],
     },
     {
       name: 'Trafalgar',
       url: 'https://trafalgar-tkaczyk.netlify.app/',
       image: trafalgar,
-      tags: ['HTML', 'CSS', 'JavaScript', 'React'],
+      tags: ['HTML', 'SCSS', 'JavaScript', 'React'],
     },
     {
       name: 'Webchat',
       url: 'https://webchattkaczyk.netlify.app/',
       image: webchat,
-      tags: ['HTML', 'CSS', 'JavaScript', 'React', 'Node.js', 'Socket.io'],
+      tags: ['HTML', 'SCSS', 'JavaScript', 'React', 'Node.js', 'Socket.io'],
+    },
+    {
+      name: 'Visit my Github!',
+      url: 'https://github.com/matheustkaczyk',
+      image: '',
+      tags: [],
     }
   ];
 
