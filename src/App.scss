@@ -313,6 +313,20 @@ video {
       }
     }
   }
+
+  .github-btn {
+    background-color: rgb(0, 132, 255);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 1%;
+    font-size: 1.1em;
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 5%;
+    text-decoration: none;
+  }
 }
 
 .contact-wrapper {
