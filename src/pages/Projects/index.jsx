@@ -79,7 +79,6 @@ const Projects = () => {
           ))
         }
       </div>
-      <a className='github-btn' href='https://github.com/matheustkaczyk' target='__blank' role={'button'}>Visit my github!</a>
     </section>
   )
 }
