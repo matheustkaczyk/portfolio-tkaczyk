@@ -15,24 +15,6 @@ const Projects = () => {
       tags: ['HTML', 'SCSS', 'JavaScript', 'React'],
     },
     {
-      name: 'Trivia',
-      url: 'https://project-trivia-4beq4455q-matheustkaczyk.vercel.app/',
-      image: trivia,
-      tags: ['HTML', 'CSS', 'JavaScript', 'React', 'Redux'],
-    },
-    {
-      name: 'Splitter',
-      url: 'https://splitter-challenge-l9x093db2-matheustkaczyk.vercel.app/',
-      image: splitter,
-      tags: ['HTML', 'SCSS', 'JavaScript', 'React'],
-    },
-    {
-      name: 'QrCode',
-      url: 'https://qrcode-gen-tka.netlify.app/',
-      image: qrcode,
-      tags: ['HTML', 'CSS', 'JavaScript', 'React'],
-    },
-    {
       name: 'Finance',
       url: 'https://finance-tkaczyk.netlify.app/',
       image: finance,
@@ -51,10 +33,22 @@ const Projects = () => {
       tags: ['HTML', 'SCSS', 'JavaScript', 'React', 'Node.js', 'Socket.io'],
     },
     {
-      name: 'Visit my Github!',
-      url: 'https://github.com/matheustkaczyk',
-      image: '',
-      tags: [],
+      name: 'Trivia',
+      url: 'https://project-trivia-4beq4455q-matheustkaczyk.vercel.app/',
+      image: trivia,
+      tags: ['HTML', 'CSS', 'JavaScript', 'React', 'Redux'],
+    },
+    {
+      name: 'Splitter',
+      url: 'https://splitter-challenge-l9x093db2-matheustkaczyk.vercel.app/',
+      image: splitter,
+      tags: ['HTML', 'SCSS', 'JavaScript', 'React'],
+    },
+    {
+      name: 'QrCode',
+      url: 'https://qrcode-gen-tka.netlify.app/',
+      image: qrcode,
+      tags: ['HTML', 'CSS', 'JavaScript', 'React'],
     }
   ];
 
