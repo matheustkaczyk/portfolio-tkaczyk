@@ -1,5 +1,6 @@
+import { IconContext } from 'react-icons';
 import { GiHamburgerMenu } from 'react-icons/gi';
-import { AiOutlineClose } from 'react-icons/ai';
+import { AiOutlineClose, AiOutlineWhatsApp, AiOutlineMail } from 'react-icons/ai';
 
 const Header = () => {
   const handleHamburger = () => {
@@ -7,7 +8,7 @@ const Header = () => {
     nav.classList.toggle('active');
   }
 
-  return(
+  return (
     <header>
       <div>
         <h2>Tkaczyk</h2>
@@ -18,7 +19,16 @@ const Header = () => {
         <ul>
           <li>Home</li>
           <li>About</li>
-          <li>Contact</li>
+          <IconContext.Provider value={{ color: "green" }}>
+            <li>
+              <AiOutlineWhatsApp />
+            </li>
+          </IconContext.Provider>
+          <IconContext.Provider value={{ color: "white" }}>
+            <li>
+              <AiOutlineMail />
+            </li>
+          </IconContext.Provider>
         </ul>
       </nav>
     </header>
