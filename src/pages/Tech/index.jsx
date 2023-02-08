@@ -10,6 +10,9 @@ import { ReactComponent as ExpressLogo } from '../../assets/images/express.svg';
 import { ReactComponent as NestLogo } from '../../assets/images/nestjs.svg';
 import { ReactComponent as MongoLogo } from '../../assets/images/mongodb.svg';
 import { ReactComponent as MySQLLogo } from '../../assets/images/mysql.svg';
+import { ReactComponent as CSharpLogo } from '../../assets/images/csharp.svg';
+import { ReactComponent as DartLogo } from '../../assets/images/dart.svg';
+import { ReactComponent as FlutterLogo } from '../../assets/images/flutter.svg';
 
 
 const Tech = () => {
@@ -50,7 +53,7 @@ const Tech = () => {
       name: 'Express',
       logo: <ExpressLogo />,
     },
-    { 
+    {
       name: 'Nest.js',
       logo: <NestLogo />,
     },
@@ -62,16 +65,28 @@ const Tech = () => {
       name: 'MySQL',
       logo: <MySQLLogo />,
     },
+    {
+      name: 'C#',
+      logo: <CSharpLogo />,
+    },
+    {
+      name: 'Dart',
+      logo: <DartLogo />,
+    },
+    {
+      name: 'Flutter',
+      logo: <FlutterLogo />,
+    }
   ]
 
-  return(
+  return (
     <section className="tech-wrapper">
       <div className="tech">
         <h1>Tech Stack</h1>
         <p>Here is a list of the technologies I am most proficient in.</p>
         <div className="tech-list">
           {techs.map((tech, index) => {
-            return(
+            return (
               <div key={index} className="tech-item">
                 {tech.logo}
               </div>

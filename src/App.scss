@@ -77,6 +77,8 @@ header {
     border-radius: 5px;
     text-align: center;
     letter-spacing: 3px;
+    border-bottom: 1px solid white;
+    ;
 
     h2 {
       font-size: 5em;
@@ -213,7 +215,7 @@ header {
   height: fit-content;
 
   .tech {
-    font-size: 1.2em;
+    font-size: 1.7em;
 
     .tech-list {
       display: flex;
@@ -233,13 +235,13 @@ header {
         background-color: rgba(110, 86, 218, 0.4);
         border-radius: 5px;
         width: 4em;
-        height: auto;
+        height: 4em;
         padding: 2%;
         margin: 1%;
 
         svg {
-          width: 6em;
-          height: 6em;
+          width: 100%;
+          height: 100%;
         }
       }
 
