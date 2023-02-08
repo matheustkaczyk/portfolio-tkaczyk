@@ -15,15 +15,21 @@ const Projects = () => {
       tags: ['HTML', 'SCSS', 'JavaScript', 'React'],
     },
     {
-      name: 'Finance',
-      url: 'https://finance-tkaczyk.netlify.app/',
-      image: finance,
-      tags: ['HTML', 'SCSS', 'JavaScript', 'React'],
-    },
-    {
       name: 'Trafalgar',
       url: 'https://trafalgar-tkaczyk.netlify.app/',
       image: trafalgar,
+      tags: ['HTML', 'SCSS', 'JavaScript', 'React'],
+    },
+    {
+      name: 'Trivia',
+      url: 'https://project-trivia-4beq4455q-matheustkaczyk.vercel.app/',
+      image: trivia,
+      tags: ['HTML', 'CSS', 'JavaScript', 'React', 'Redux'],
+    },
+    {
+      name: 'Finance',
+      url: 'https://finance-tkaczyk.netlify.app/',
+      image: finance,
       tags: ['HTML', 'SCSS', 'JavaScript', 'React'],
     },
     {
@@ -31,12 +37,6 @@ const Projects = () => {
       url: 'https://webchattkaczyk.netlify.app/',
       image: webchat,
       tags: ['HTML', 'SCSS', 'JavaScript', 'React', 'Node.js', 'Socket.io'],
-    },
-    {
-      name: 'Trivia',
-      url: 'https://project-trivia-4beq4455q-matheustkaczyk.vercel.app/',
-      image: trivia,
-      tags: ['HTML', 'CSS', 'JavaScript', 'React', 'Redux'],
     },
     {
       name: 'Splitter',
