@@ -1,7 +1,6 @@
 import './App.scss'
 
 import Header from './components/Header'
-import Video from './components/Video'
 
 import Home from './pages/Home'
 import About from './pages/About'
@@ -18,7 +17,7 @@ function App() {
         <About />
         <Tech />
         <Projects />
-        {/* <Contact /> */}
+        <Contact />
       </main>
     </div>
   )

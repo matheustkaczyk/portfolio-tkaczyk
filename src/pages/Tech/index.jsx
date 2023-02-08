@@ -80,7 +80,7 @@ const Tech = () => {
   ]
 
   return (
-    <section className="tech-wrapper">
+    <section className="tech-wrapper" id='tech'>
       <div className="tech">
         <h1>Tech Stack</h1>
         <p>Here is a list of the technologies I am most proficient in.</p>
