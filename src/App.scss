@@ -1,9 +1,9 @@
 main {
-  background-color: rgba(110, 86, 218, 0.4);
+  background-color: rgba(29, 25, 43);
 }
 
 header {
-  background-color: rgba(94, 74, 182, 0.5);
+  background-color: rgba(29, 25, 43, 0.95);
   color: white;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-size: .8rem;
@@ -17,6 +17,8 @@ header {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    width: 100%;
+    height: 100%;
   }
 
   nav {
@@ -26,10 +28,10 @@ header {
     transform: translateX(+1000%);
     transition: transform 0.3s ease-in-out;
     height: 100vh;
+    width: 50vw;
     right: 0;
     top: 0;
     z-index: 9999;
-    border-left: .5px solid white;
 
     svg {
       float: right;
@@ -39,27 +41,19 @@ header {
       background-color: black;
     }
 
-    ul {
+    div {
       list-style: none;
       margin-top: 5vh;
-
-      li {
-        margin-top: 5%;
-      }
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
     }
   }
 
   .active {
     transform: translateX(0);
   }
-}
-
-video {
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: -1;
-  overflow-x: hidden;
 }
 
 .home-wrapper {
@@ -71,18 +65,23 @@ video {
   height: 93vh;
 
   .home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     color: white;
     font-family: 'Alumni Sans Pinstripe', sans-serif;
     font-size: 1.1em;
     width: 100%;
-    height: fit-content;
+    height: 100%;
     border-radius: 5px;
     text-align: center;
     letter-spacing: 3px;
 
     h2 {
-      font-size: 3rem;
+      font-size: 5em;
       animation: leftFadeIn 2s;
+      margin: 1.5rem;
 
       span {
         display: inline-block;
@@ -92,7 +91,10 @@ video {
     }
 
     h3 {
+      font-size: 3rem;
+
       span {
+
         div {
           color: rgb(0, 132, 255);
         }
@@ -104,29 +106,36 @@ video {
       color: white;
       border: none;
       border-radius: 5px;
-      padding: 1%;
-      font-size: 1.1em;
+      padding: 1.5rem;
+      font-size: 1.2em;
       font-family: 'Alumni Sans Pinstripe', sans-serif;
       font-weight: 600;
+      margin-top: 1.5rem;
       cursor: pointer;
       transition: transform 0.3s ease-in-out;
       animation: rightFadeIn 2s;
-      margin-top: 5%;
       text-decoration: none;
       display: inline-block;
     }
+
+    a {
+      width: fit-content;
+      height: fit-content;
+
+      .arrow {
+        position: absolute;
+        bottom: 0;
+        cursor: pointer;
+        animation: arrow 2s infinite;
+        animation-delay: 3s;
+        width: 5vw;
+        height: 5vh;
+
+        fill: rgb(0, 132, 255);
+      }
+    }
   }
 
-  .arrow {
-    margin-top: 10%;
-    height: 30%;
-    width: auto;
-    cursor: pointer;
-    animation: arrow 2s infinite;
-    animation-delay: 3s;
-
-    fill: rgb(0, 132, 255);
-  }
 }
 
 .about-wrapper {

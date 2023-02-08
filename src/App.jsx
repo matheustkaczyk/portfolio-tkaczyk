@@ -14,7 +14,6 @@ function App() {
     <div className="App">
       <Header />
       <main>
-        <Video />
         <Home />
         <About />
         <Tech />

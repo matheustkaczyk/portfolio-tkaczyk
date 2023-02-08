@@ -16,20 +16,20 @@ const Header = () => {
       </div>
       <nav>
         <AiOutlineClose onClick={() => handleHamburger()} />
-        <ul>
-          <li>Home</li>
-          <li>About</li>
+        <div>
+          <a>Home</a>
+          <a>About</a>
           <IconContext.Provider value={{ color: "green" }}>
-            <li>
+            <a>
               <AiOutlineWhatsApp />
-            </li>
+            </a>
           </IconContext.Provider>
           <IconContext.Provider value={{ color: "white" }}>
-            <li>
+            <a>
               <AiOutlineMail />
-            </li>
+            </a>
           </IconContext.Provider>
-        </ul>
+        </div>
       </nav>
     </header>
   )
